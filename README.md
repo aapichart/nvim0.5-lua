@@ -1,4 +1,4 @@
-# nvim 0.5+ with Lua
+# nvim 0.5+ with Lua (This config based on Archlinux - arm (raspberry pi4)
 - This is the boiler plate for config nvim 0.5+ with lua
 - Thank for information of "https://github.com/satrac/nvim-lsp-config"
 - He give me quite good information 
