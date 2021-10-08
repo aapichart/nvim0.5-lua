@@ -1,0 +1,53 @@
+[
+	{
+		"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": null,
+		"type": "con",
+		"nodes": [
+			{
+				"border": "normal",
+				"current_border_width": 2,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 429,
+					"width": 656,
+					"x": 0,
+					"y": 0
+				},
+				"marks": [],
+				"name": "./works/i3-layout-manager/layout_manager.sh",
+				"percent": 0.5,
+				"swallows": [
+					{
+						"instance": "^terminator$"
+					}
+				],
+				"type": "con"
+			},
+			{
+				"border": "normal",
+				"current_border_width": 2,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 1041,
+					"width": 956,
+					"x": 962,
+					"y": 18
+				},
+				"marks": [],
+				"name": "GitHub - klaxalk/i3-layout-manager: Saving, loading and managing layouts for i3wm. - Chromium",
+				"percent": 0.5,
+				"swallows": [
+					{
+						"instance": "^chromium$"
+					}
+				],
+				"type": "con"
+			}
+		]
+	}
+]

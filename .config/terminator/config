@@ -1,0 +1,30 @@
+[global_config]
+  dbus = False
+  focus = system
+  handle_size = 7
+  extra_styling = False
+  scroll_tabbar = True
+  always_split_with_profile = True
+  title_use_system_font = False
+  title_font = Sans 12
+  line_height = 1.1
+[keybindings]
+  full_screen = <Ctrl><Shift>F11
+[profiles]
+  [[default]]
+    background_darkness = 0.0
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fixed 12
+    show_titlebar = False
+    scrollbar_position = hidden
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
