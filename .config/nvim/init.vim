@@ -12,6 +12,17 @@ call plug#begin(stdpath('data') . 'vimplug')
     " Sending text as a command to another tmux window
 
     Plug 'jpalardy/vim-slime'
+
+    Plug 'prabirshrestha/vim-lsp'
+    Plug 'mattn/vim-lsp-settings'
+    Plug 'justinmk/vim-sneak'    
+    Plug 'airblade/vim-gitgutter'
+
+    " Track the engine.
+    Plug 'SirVer/ultisnips'
+    " Snippets are separated from the engine. Add this if you want them:
+    Plug 'honza/vim-snippets'
+   
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-telescope/telescope.nvim'
@@ -83,7 +94,7 @@ nnoremap <Leader>pp <cmd>lua require'telescope.builtin'.builtin{}<CR>
 nnoremap <Leader>m <cmd>lua require'telescope.builtin'.oldfiles{}<CR>
 
 " find buffer
-nnoremap ; <cmd>lua require'telescope.builtin'.buffers{}<CR>
+nnoremap <leader>b <cmd>lua require'telescope.builtin'.buffers{}<CR>
 
 " find in current buffer
 nnoremap <Leader>/ <cmd>lua require'telescope.builtin'.current_buffer_fuzzy_find{}<CR>
