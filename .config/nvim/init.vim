@@ -17,7 +17,7 @@ call plug#begin(stdpath('data') . 'vimplug')
     Plug 'mattn/vim-lsp-settings'
     Plug 'justinmk/vim-sneak'    
     Plug 'airblade/vim-gitgutter'
-
+    Plug 'vimwiki/vimwiki'
     " Track the engine.
     Plug 'SirVer/ultisnips'
     " Snippets are separated from the engine. Add this if you want them:
